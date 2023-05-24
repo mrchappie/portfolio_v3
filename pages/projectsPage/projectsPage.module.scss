@@ -1,0 +1,33 @@
+@use '../../styles/scss/index' as *;
+
+.projects {
+  min-height: max-content;
+  padding-block: $padding-80;
+
+  @extend %flex-column;
+
+  .heading {
+    font-size: 48px;
+    font-weight: $font-weight-700;
+    color: $heading-color-light;
+
+    padding-block: $padding-16;
+  }
+
+  .description {
+    font-size: 32px;
+    font-weight: $font-weight-400;
+    color: $text-dark;
+
+    padding-block: $padding-16;
+  }
+
+  .projects__container {
+    @extend %flex-row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+    margin-top: 80px;
+  }
+}

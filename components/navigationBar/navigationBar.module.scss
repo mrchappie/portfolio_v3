@@ -1,0 +1,15 @@
+@use '../../styles/scss/index' as *;
+
+.navigation__bar {
+  display: flex;
+  padding-block: $padding-8;
+
+  > :nth-child(1) {
+    flex: 0 0 10%;
+    @include align($justify: flex-start);
+  }
+  > :nth-child(3) {
+    flex: 0 0 10%;
+    @include align($justify: flex-start);
+  }
+}

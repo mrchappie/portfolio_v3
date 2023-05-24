@@ -1,0 +1,71 @@
+// $background-color: #fefefe;
+// $input-background-color: #fcfcfc;
+// $primary-color: #242d4a;
+// $secundary-color: #9f9f9f;
+// $img-url: url('https://images.pexels.com/photos/254069/pexels-photo-254069.jpeg?auto=compress&cs=tinysrgb&w=600');
+
+// $background-color-dark: #212121;
+// $input-background-color-dark: #151515;
+// $primary-color-dark: #fefefe;
+// $secundary-color-dark: #fcfcfc;
+// $img-url-dark: url('https://images.pexels.com/photos/16380570/pexels-photo-16380570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+// $themes: (
+//   light: (
+//     logo: $img-url,
+//     bg: $background-color,
+//     input-bg: $input-background-color,
+//     primary-color: $primary-color,
+//     secundary-color: $secundary-color,
+//   ),
+//   dark: (
+//     logo: $img-url-dark,
+//     bg: $background-color-dark,
+//     input-bg: $input-background-color-dark,
+//     primary-color: $primary-color-dark,
+//     secundary-color: $secundary-color-dark,
+//   ),
+// );
+
+// @mixin themed() {
+//   @each $theme, $map in $themes {
+//     // &
+//     .theme__#{$theme} {
+//       $theme-map: () !global;
+//       @each $key, $submap in $map {
+//         $value: map-get(map-get($themes, $theme), '#{$key}');
+//         $theme-map: map-merge(
+//           $theme-map,
+//           (
+//             $key: $value,
+//           )
+//         ) !global;
+//       }
+//       @content;
+//       $theme-map: null !global;
+//     }
+//   }
+// }
+
+// @function t($key) {
+//   @return map-get($theme-map, $key);
+// }
+
+// @include themed() {
+//   background-color: t(bg);
+//   color: t(primary-color);
+// }
+
+@mixin align(
+  $display: flex,
+  $align: center,
+  $justify: center,
+  $direction: row,
+  $wrap: nowrap
+) {
+  display: $display;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+  flex-wrap: $wrap;
+}

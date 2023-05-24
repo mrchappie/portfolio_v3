@@ -1,0 +1,42 @@
+@use '../../styles/scss/index' as *;
+
+.tech__stack {
+  min-height: max-content;
+  padding-block: $padding-80;
+
+  @extend %flex-column;
+
+  .heading {
+    font-size: 48px;
+    font-weight: $font-weight-700;
+    color: $heading-color-light;
+
+    padding-block: $padding-16;
+  }
+
+  .description {
+    font-size: 32px;
+    font-weight: $font-weight-400;
+    color: $text-dark;
+
+    padding-block: $padding-16;
+  }
+
+  .tech__list {
+    @extend %flex-row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 80px;
+
+    list-style: none;
+
+    .tech__item {
+      flex-grow: 0;
+      flex-shrink: 0;
+      width: 190px;
+      aspect-ratio: 1;
+
+      background-color: blue;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@use '../../styles/scss/index' as *;
+
+.container {
+  @extend %flex-row;
+  justify-content: space-between;
+
+  height: 100vh;
+
+  > div {
+    width: 50%;
+    @extend %flex-column;
+  }
+
+  .heading {
+    font-size: 58px;
+    font-weight: $font-weight-700;
+
+    .username {
+      background: linear-gradient(to right, $heading-gradient-light);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    > div {
+      width: 100%;
+      text-align: start;
+    }
+  }
+
+  .profile {
+    $image-width: 350px;
+
+    background: linear-gradient(to top, $heading-gradient-light);
+    width: $image-width;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+    img {
+      width: calc($image-width - 20px);
+      aspect-ratio: 1;
+      border-radius: 50%;
+    }
+  }
+}

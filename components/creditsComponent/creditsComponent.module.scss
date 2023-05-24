@@ -1,0 +1,22 @@
+@import '../../styles/scss/index';
+
+.credits {
+  background: linear-gradient(to right, $heading-gradient-light);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: $font-size-16;
+  font-weight: $font-weight-400;
+  color: $text-dark;
+
+  &__designed {
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__coded {
+    -webkit-text-fill-color: transparent;
+  }
+
+  > span {
+    -webkit-text-fill-color: transparent;
+  }
+}

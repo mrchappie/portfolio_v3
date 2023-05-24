@@ -1,0 +1,15 @@
+@use '../../styles/scss/index' as *;
+
+.nav {
+  flex: 1 0 80%;
+
+  @include align($justify: flex-end);
+
+  li {
+    padding: 8px 16px;
+    list-style: none;
+    font-size: $font-size-20;
+    font-weight: $font-weight-500;
+    color: $text-dark;
+  }
+}

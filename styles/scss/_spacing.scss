@@ -1,0 +1,61 @@
+//* base values
+//? What are this? These values are base values for margin / padding and a multiplier to calculate different margins / paddings
+//*! With red are not problems, it is just to get a beeter view over the document
+$base-margin: 4px;
+$base-padding: $base-margin;
+$multiplier: 2;
+
+//*! height
+$header-height: 80px;
+
+//*! width
+//* 8px
+$width-8: $base-margin + ($multiplier * 2);
+//* 16px
+$width-16: $width-8 + ($multiplier * 4);
+//* 24px
+$width-24: $width-16 + ($multiplier * 4);
+//* 32px
+$width-32: $width-16 + ($multiplier * 8);
+
+//*! margin
+//* 8px
+$margin-8: $base-margin + ($multiplier * 2);
+//* 16px
+$margin-16: $margin-8 + ($multiplier * 4);
+//* 24px
+$margin-24: $margin-16 + ($multiplier * 4);
+//* 32px
+$margin-32: $margin-16 + ($multiplier * 8);
+//* 40px
+$margin-40: $margin-32 + ($multiplier * 4);
+//* 48px
+$margin-48: $margin-40 + ($multiplier * 4);
+//* 54px
+$margin-56: $margin-48 + ($multiplier * 4);
+//* 60px
+$margin-60: $margin-56 + ($multiplier * 4);
+
+//*! padding
+//* 8px
+$padding-8: $base-padding + ($multiplier * 2);
+//* 16px
+$padding-16: $padding-8 + ($multiplier * 4);
+//* 24px
+$padding-24: $padding-16 + ($multiplier * 4);
+//* 32px
+$padding-32: $padding-16 + ($multiplier * 8);
+//* 40px
+$padding-40: $padding-32 + ($multiplier * 4);
+//* 48px
+$padding-48: $padding-40 + ($multiplier * 4);
+//* 54px
+$padding-56: $padding-48 + ($multiplier * 4);
+//* 60px
+$padding-60: $padding-56 + ($multiplier * 4);
+//* 66px
+$padding-66: $padding-60 + ($multiplier * 4);
+//* 72px
+$padding-72: $padding-66 + ($multiplier * 4);
+//* 80px
+$padding-80: $padding-72 + ($multiplier * 4);

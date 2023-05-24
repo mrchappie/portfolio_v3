@@ -1,0 +1,49 @@
+@import '../../styles/scss/index';
+
+.footer {
+  > section {
+    padding-block: $padding-32;
+
+    @include align;
+  }
+
+  > .divider {
+    height: 2px;
+    background-color: $text-dark;
+    opacity: 0.3;
+  }
+
+  &__contact {
+    > :nth-child(1) {
+      flex: 0 0 150px;
+    }
+
+    > :nth-child(2) {
+      flex: 1 0 auto;
+
+      @include align($justify: flex-end);
+      font-size: $font-size-18;
+      font-weight: $font-weight-400;
+
+      > :nth-child(n) {
+        width: 200px;
+      }
+    }
+
+    > :nth-child(3) {
+      flex: 0 0 150px;
+    }
+  }
+
+  &__navigation {
+    > :nth-child(1) {
+      flex: 1 0 auto;
+      justify-content: flex-start;
+    }
+
+    > :nth-child(2) {
+      flex: 1 0 auto;
+      text-align: end;
+    }
+  }
+}
