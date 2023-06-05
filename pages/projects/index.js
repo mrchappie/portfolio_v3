@@ -1,8 +1,8 @@
-import ProjectCard from '../components/projectCard/projectCard';
+import ProjectCard from '../../components/projectCard/projectCard';
 
-import styles from './projectsPage/projectsPage.module.scss';
+import styles from './projectsPage.module.scss';
 
-const projectsPage = () => {
+const projects = () => {
   return (
     <section className={styles.projects}>
       <div className={styles.heading}>Projects</div>
@@ -19,4 +19,4 @@ const projectsPage = () => {
   );
 };
 
-export default projectsPage;
+export default projects;

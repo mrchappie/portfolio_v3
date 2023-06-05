@@ -1,0 +1,140 @@
+@use '../../styles/scss/index' as *;
+
+.about {
+  width: 60%;
+  padding-block: $padding-80;
+
+  &__me {
+    &__title {
+      font-size: 42px;
+      font-weight: $font-weight-900;
+      color: $heading-color-light;
+      margin-block: $margin-32;
+    }
+    &__description {
+      font-size: $font-size-18;
+      font-weight: $font-weight-400;
+      color: $text-dark;
+      margin-block: $margin-32;
+    }
+  }
+  .experience {
+    &__title {
+      font-size: 42px;
+      font-weight: $font-weight-900;
+      color: $heading-color-light;
+      margin-block: $margin-32;
+    }
+
+    &__job {
+      @extend %flex-row;
+      border-bottom: 2px solid rgba($color: #000000, $alpha: 0.1);
+      padding-block: $padding-24;
+      margin-block: $margin-24;
+
+      &__header {
+        flex: 1 0 50%;
+
+        &__title {
+          font-size: $font-size-20;
+          font-weight: $font-weight-600;
+          color: $text-dark;
+        }
+
+        &__location {
+          @extend %flex-row;
+          justify-content: flex-start;
+          gap: 30px;
+
+          font-size: $font-size-14;
+          line-height: 30px;
+          font-weight: $font-weight-500;
+          color: $text-light;
+        }
+      }
+
+      &__duration {
+        @extend %flex-column;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        span:nth-child(1) {
+          color: $button-text-accent;
+          background-color: $button-background-accent;
+          font-size: $font-size-12;
+          font-weight: $font-weight-400;
+          padding: $base-padding $padding-16;
+          border-radius: 100px;
+        }
+
+        span:nth-child(2) {
+          line-height: 30px;
+
+          color: $text-light;
+          font-size: $font-size-14;
+          font-weight: $font-weight-500;
+        }
+      }
+    }
+  }
+
+  .education {
+    &__title {
+      font-size: 42px;
+      font-weight: $font-weight-900;
+      color: $heading-color-light;
+      margin-block: $margin-32;
+    }
+
+    &__type {
+      @extend %flex-row;
+      border-bottom: 2px solid rgba($color: #000000, $alpha: 0.1);
+      padding-block: $padding-24;
+      margin-block: $margin-24;
+
+      &__header {
+        flex: 1 0 50%;
+
+        &__title {
+          font-size: $font-size-20;
+          font-weight: $font-weight-600;
+          color: $text-dark;
+        }
+
+        &__location {
+          @extend %flex-row;
+          justify-content: flex-start;
+          gap: 30px;
+
+          font-size: $font-size-14;
+          line-height: 30px;
+          font-weight: $font-weight-500;
+          color: $text-light;
+        }
+      }
+
+      &__duration {
+        @extend %flex-column;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        span:nth-child(1) {
+          color: $button-text-accent;
+          background-color: $button-background-accent;
+          font-size: $font-size-12;
+          font-weight: $font-weight-400;
+          padding: $base-padding $padding-16;
+          border-radius: 100px;
+        }
+
+        span:nth-child(2) {
+          line-height: 30px;
+
+          color: $text-light;
+          font-size: $font-size-14;
+          font-weight: $font-weight-500;
+        }
+      }
+    }
+  }
+}

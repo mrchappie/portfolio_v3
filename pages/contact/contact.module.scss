@@ -1,0 +1,23 @@
+@use '../../styles/scss/index' as *;
+
+.contact {
+  @extend %flex-column;
+  min-height: 90vh;
+
+  div:nth-child(1) {
+    font-size: 58px;
+    font-weight: $font-weight-900;
+    color: $heading-color-light;
+    text-align: center;
+  }
+
+  div:nth-child(2) {
+    font-size: 58px;
+    font-weight: $font-weight-900;
+
+    background: linear-gradient(to right, $heading-gradient-light);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}

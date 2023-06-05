@@ -1,6 +1,6 @@
-import styles from './techStackPage/techStackPage.module.scss';
+import styles from './techStackPage.module.scss';
 
-const techStackPage = () => {
+const techStack = () => {
   return (
     <section id="teck__stack" className={styles.tech__stack}>
       <div className={styles.heading}>My Teck Stack</div>
@@ -23,4 +23,4 @@ const techStackPage = () => {
   );
 };
 
-export default techStackPage;
+export default techStack;
