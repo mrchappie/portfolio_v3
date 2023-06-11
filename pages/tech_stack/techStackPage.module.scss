@@ -36,7 +36,14 @@
       width: 190px;
       aspect-ratio: 1;
 
-      background-color: blue;
+      display: grid;
+      place-items: center;
+
+      img {
+        display: block;
+        width: 75%;
+        aspect-ratio: 1;
+      }
     }
   }
 }

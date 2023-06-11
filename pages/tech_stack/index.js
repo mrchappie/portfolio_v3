@@ -1,4 +1,14 @@
+import { userInformation } from '../api/userData';
+
 import styles from './techStackPage.module.scss';
+
+const userTeckStack = userInformation.teckStack;
+
+const htmlToBeInserted = [];
+
+Object.values(userTeckStack).forEach((tech) => {
+  htmlToBeInserted.push(tech);
+});
 
 const techStack = () => {
   return (
@@ -8,16 +18,11 @@ const techStack = () => {
         Technologies I've been working with recently
       </div>
       <ul className={styles.tech__list}>
-        <li className={styles.tech__item}></li>
-        <li className={styles.tech__item}></li>
-        <li className={styles.tech__item}></li>
-        <li className={styles.tech__item}></li>
-        <li className={styles.tech__item}></li>
-        <li className={styles.tech__item}></li>
-        <li className={styles.tech__item}></li>
-        <li className={styles.tech__item}></li>
-        <li className={styles.tech__item}></li>
-        <li className={styles.tech__item}></li>
+        {htmlToBeInserted.map((tech, index) => (
+          <li key={index} className={styles.tech__item}>
+            <img src={tech} alt="" />
+          </li>
+        ))}
       </ul>
     </section>
   );
