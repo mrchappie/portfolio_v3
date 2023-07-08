@@ -9,13 +9,13 @@ const about = () => {
   return (
     <section className={styles.about}>
       <div className={styles.about__me}>
-        <div className={styles.about__me__title}>About me</div>
+        <div className={styles.about__me__title}>{`<About me/>`}</div>
         <div className={styles.about__me__description}>
           {userInformation.aboutMe}
         </div>
       </div>
       <div className={styles.experience}>
-        <div className={styles.experience__title}>Work Experience</div>
+        <div className={styles.experience__title}>{'<Work Experience/>'}</div>
         {userWorkExperience.map((work, index) => (
           <div key={index} className={styles.experience__job}>
             <div className={styles.experience__job__header}>
@@ -35,7 +35,7 @@ const about = () => {
         ))}
       </div>
       <div className={styles.education}>
-        <div className={styles.education__title}>Education</div>
+        <div className={styles.education__title}>{`<Education/>`}</div>
         {userEducation.map((education) => (
           <div className={styles.education__type}>
             <div className={styles.education__type__header}>

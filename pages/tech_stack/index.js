@@ -4,16 +4,12 @@ import styles from './techStackPage.module.scss';
 
 const userTeckStack = userInformation.teckStack;
 
-const htmlToBeInserted = [];
-
-Object.values(userTeckStack).forEach((tech) => {
-  htmlToBeInserted.push(tech);
-});
+const htmlToBeInserted = Object.values(userTeckStack);
 
 const techStack = () => {
   return (
     <section id="teck__stack" className={styles.tech__stack}>
-      <div className={styles.heading}>My Teck Stack</div>
+      <div className={styles.heading}>{`<My Teck Stack/>`}</div>
       <div className={styles.description}>
         Technologies I've been working with recently
       </div>

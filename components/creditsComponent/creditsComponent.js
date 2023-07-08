@@ -7,6 +7,7 @@ const creditsComponent = () => {
       <a
         className={styles.credits__designed}
         href="https://github.com/pavanmg007"
+        target="_blank"
       >
         Pavan MG
       </a>{' '}
