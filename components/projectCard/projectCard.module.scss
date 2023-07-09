@@ -38,7 +38,7 @@
     }
 
     .title {
-      font-size: $font-size-28;
+      font-size: clamp($font-size-16, 1rem + 1vw, $font-size-28);
       font-weight: $font-weight-500;
       color: $text-black;
       line-height: 26px;
@@ -46,7 +46,7 @@
 
     .description {
       flex: 1 0 auto;
-      font-size: $font-size-18;
+      font-size: clamp($font-size-12, 12px + 1vw, $font-size-18);
       font-weight: $font-weight-400;
       color: $text-black;
       line-height: 26px;
@@ -54,13 +54,13 @@
     }
 
     .project__tech__stack {
-      font-size: $font-size-16;
+      font-size: clamp($font-size-12, 12px + 1vw, $font-size-16);
       font-weight: $font-weight-600;
       color: $heading-color-light;
       line-height: 26px;
 
       span {
-        font-size: $font-size-16;
+        font-size: clamp($font-size-12, 12px + 1vw, $font-size-16);
         font-weight: $font-weight-400;
         color: $heading-color-light;
         line-height: 26px;
@@ -70,11 +70,29 @@
     .project__links {
       @extend %flex-row;
       justify-content: space-between;
-      font-size: $font-size-16;
+      font-size: clamp($font-size-12, 12px + 1vw, $font-size-16);
       font-weight: $font-weight-400;
       color: $text-black;
       line-height: 26px;
       margin: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .project__card {
+    width: 275px;
+    min-height: 470px;
+    max-height: 500px;
+
+    .project__content {
+      padding: 20px;
+
+      .project__tech__stack {
+        span {
+          display: block;
+        }
+      }
     }
   }
 }

@@ -7,7 +7,8 @@
   @extend %flex-column;
 
   .heading {
-    font-size: 48px;
+    text-align: center;
+    font-size: clamp(1.5rem, 1.5rem + 1vw, 48px);
     font-weight: $font-weight-700;
     color: $heading-color-light;
 
@@ -15,7 +16,8 @@
   }
 
   .description {
-    font-size: 32px;
+    text-align: center;
+    font-size: clamp(1rem, 1rem + 1vw, 32px);
     font-weight: $font-weight-400;
     color: $text-dark;
 
@@ -33,7 +35,7 @@
     .tech__item {
       flex-grow: 0;
       flex-shrink: 0;
-      width: 190px;
+      width: 200px;
       aspect-ratio: 1;
 
       display: grid;
@@ -43,6 +45,16 @@
         display: block;
         width: 75%;
         aspect-ratio: 1;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .tech__stack {
+    .tech__list {
+      .tech__item {
+        width: 100px;
       }
     }
   }

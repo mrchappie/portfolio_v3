@@ -10,6 +10,7 @@ import TechStack from './tech_stack/index';
 import Projects from './projects/index';
 import Contact from './contact/index';
 import FooterComponent from '../components/footer/footerComponent';
+import ScrollDown from '../components/scrollDown/scrollDown';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 
@@ -20,8 +21,9 @@ function MyApp() {
   return (
     <>
       <Head>
-        <title>Alexandru BOȘCU</title>
+        <title>{'<Alexandru BOȘCU/>'}</title>
         <meta name="description" content="Lorem ipsum dolor" />
+        <link rel="icon" href="/assets/icons/website__icon.svg" />
       </Head>
       <AppContainer>
         <Navigation></Navigation>
@@ -31,12 +33,14 @@ function MyApp() {
             <TechStack></TechStack>
             <Projects></Projects>
             <FooterComponent></FooterComponent>
+            <ScrollDown></ScrollDown>
           </>
         )}
         {path === '/about' && (
           <>
             <About></About>
             <FooterComponent></FooterComponent>
+            <ScrollDown></ScrollDown>
           </>
         )}
         {path === '/tech_stack' && <TechStack></TechStack>}
@@ -44,6 +48,7 @@ function MyApp() {
           <>
             <Projects></Projects>
             <FooterComponent></FooterComponent>
+            <ScrollDown></ScrollDown>
           </>
         )}
         {path === '/contact' && <Contact></Contact>}

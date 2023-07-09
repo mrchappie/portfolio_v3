@@ -5,14 +5,14 @@
   min-height: 90vh;
 
   div:nth-child(1) {
-    font-size: 58px;
+    font-size: clamp(2rem, 2rem + 1vw, 58px);
     font-weight: $font-weight-900;
     color: $heading-color-light;
     text-align: center;
   }
 
   div:nth-child(2) {
-    font-size: 58px;
+    font-size: clamp(1.5rem, 1.5rem + 1vw, 58px);
     font-weight: $font-weight-900;
 
     background: linear-gradient(to right, $heading-gradient-light);

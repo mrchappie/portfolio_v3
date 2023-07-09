@@ -3,8 +3,7 @@
 .container {
   @extend %flex-row;
   justify-content: space-between;
-
-  height: 100vh;
+  padding-block: 220px;
 
   > div {
     width: 50%;
@@ -12,7 +11,7 @@
   }
 
   .heading {
-    font-size: 58px;
+    font-size: clamp(1.5rem, 1.5rem + 1vw, 58px);
     font-weight: $font-weight-700;
 
     .username {
@@ -29,17 +28,38 @@
   }
 
   .profile {
-    $image-width: 350px;
+    --image-width: 350px;
 
     background: linear-gradient(to top, $heading-gradient-light);
-    width: $image-width;
+    width: var(--image-width);
     aspect-ratio: 1;
     border-radius: 50%;
 
     img {
-      width: calc($image-width - 20px);
+      width: calc(var(--image-width) - 20px);
       aspect-ratio: 1;
       border-radius: 50%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-block: 120px;
+    row-gap: 100px;
+
+    > .heading {
+      width: 100%;
+
+      > div {
+        text-align: center;
+      }
+    }
+
+    .profile {
+      --image-width: 300px;
     }
   }
 }

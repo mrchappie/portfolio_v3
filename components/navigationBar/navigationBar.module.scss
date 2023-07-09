@@ -13,3 +13,11 @@
     @include align($justify: flex-start);
   }
 }
+
+@media (max-width: 1200px) {
+  .navigation__bar {
+    > :nth-child(3) {
+      display: none;
+    }
+  }
+}
