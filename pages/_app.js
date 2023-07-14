@@ -25,7 +25,7 @@ function MyApp() {
         <meta name="description" content="Lorem ipsum dolor" />
         <link rel="icon" href="/assets/icons/website__icon.svg" />
       </Head>
-      <AppContainer>
+      <AppContainer theme={'light-mode'}>
         <Navigation></Navigation>
         {path === '/' && (
           <>

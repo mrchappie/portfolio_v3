@@ -1,9 +1,9 @@
 import LogoComponent from '../logoComponent/logoComponent';
 import SocialLinks from '../socialLinks/socialLinks';
-import NavigationLinks from '../navigationBar/navigationLinks';
 import CreditsComponent from '../creditsComponent/creditsComponent';
 
 import styles from './footerComponent.module.scss';
+import Link from 'next/link';
 
 const footerComponent = () => {
   return (
@@ -22,9 +22,23 @@ const footerComponent = () => {
       </section>
       <div className={styles.divider}></div>
       <section className={styles.footer__navigation}>
-        <NavigationLinks
-          style={{ fontSize: '16px', fontWeight: '400' }}
-        ></NavigationLinks>
+        <ul className={styles.nav}>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/about">About</Link>
+          </li>
+          <li>
+            <Link href="/tech_stack">Tech Stack</Link>
+          </li>
+          <li>
+            <Link href="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link href="/contact">Contact</Link>
+          </li>
+        </ul>
         <CreditsComponent></CreditsComponent>
       </section>
     </footer>

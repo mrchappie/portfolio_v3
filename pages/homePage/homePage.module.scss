@@ -4,6 +4,7 @@
   @extend %flex-row;
   justify-content: space-between;
   padding-block: 220px;
+  color: inherit;
 
   > div {
     width: 50%;
@@ -24,6 +25,7 @@
     > div {
       width: 100%;
       text-align: start;
+      color: $heading-color-light;
     }
   }
 

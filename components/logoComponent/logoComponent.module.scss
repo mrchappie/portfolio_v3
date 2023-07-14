@@ -8,3 +8,9 @@
 
   font-size: $font-size-24;
 }
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+}

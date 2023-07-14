@@ -36,9 +36,17 @@
   }
 
   &__navigation {
-    > :nth-child(1) {
+    .nav {
       flex: 1 0 auto;
-      justify-content: flex-start;
+      @include align($justify: flex-start);
+
+      li {
+        padding: 8px 16px;
+        list-style: none;
+        font-size: $font-size-18;
+        font-weight: $font-weight-400;
+        color: $text-dark;
+      }
     }
 
     > :nth-child(2) {
