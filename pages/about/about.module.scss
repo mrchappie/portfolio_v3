@@ -5,6 +5,8 @@
   padding-block: $padding-80;
 
   &__me {
+    margin-bottom: $margin-80;
+
     &__title {
       font-size: clamp(1rem, 1.5rem + 1vw, 42px);
       font-weight: $font-weight-900;
@@ -20,6 +22,8 @@
     }
   }
   .experience {
+    margin-bottom: $margin-80;
+
     &__title {
       font-size: clamp(1rem, 1.5rem + 1vw, 42px);
       font-weight: $font-weight-900;

@@ -1,19 +1,9 @@
 @import '../../styles/scss/index';
 
 .footer {
-  > section {
-    padding-block: $padding-32;
-
-    @include align;
-  }
-
-  > .divider {
-    height: 2px;
-    background-color: $text-dark;
-    opacity: 0.3;
-  }
-
   &__contact {
+    @include align;
+
     > :nth-child(1) {
       flex: 0 0 150px;
     }
@@ -35,7 +25,16 @@
     }
   }
 
+  > .divider {
+    height: 2px;
+    background-color: $text-dark;
+    opacity: 0.3;
+  }
+
   &__navigation {
+    padding-block: $padding-32;
+    @include align;
+
     .nav {
       flex: 1 0 auto;
       @include align($justify: flex-start);
@@ -52,6 +51,48 @@
     > :nth-child(2) {
       flex: 1 0 auto;
       text-align: end;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    &__navigation {
+      .nav {
+        display: none;
+      }
+
+      > :nth-child(2) {
+        text-align: center;
+        max-width: 80%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    &__contact {
+      flex-direction: column;
+
+      > :nth-child(3) {
+        flex-basis: 100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    &__contact {
+      > :nth-child(2) {
+        flex-direction: column;
+        row-gap: 15px;
+
+        > div {
+          text-align: center;
+        }
+      }
     }
   }
 }
