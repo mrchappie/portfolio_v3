@@ -3,17 +3,24 @@ import SocialLinks from '../socialLinks/socialLinks';
 import styles from './navigationBar.module.scss';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const navigationBar = () => {
+  const [body, setBody] = useState(null);
+  useEffect(() => {
+    setBody(document.querySelector('body'));
+  }, []);
+
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const handleMenuOpen = () => {
     setMenuOpen(!isMenuOpen);
+    body.style.overflow = 'hidden';
   };
 
   const handleMenuClose = () => {
     setMenuOpen(!isMenuOpen);
+    body.style.overflow = 'auto';
   };
 
   return (

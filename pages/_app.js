@@ -22,7 +22,19 @@ function MyApp() {
     <>
       <Head>
         <title>{'<Alexandru BOȘCU/>'}</title>
-        <meta name="description" content="Lorem ipsum dolor" />
+        <meta property="og:title" content="Alexandru BOSCU Portfolio" />
+        <meta
+          property="og:description"
+          content="Passionate Frontend Developer | Seeking Opportunities to Join an Exceptional Team"
+        />
+        <meta
+          property="og:image"
+          content="http://www.machinelearningworkshop.com/image/all.png"
+        />
+        <meta
+          property="og:image:alt"
+          content="Black and white line drawing of refrigerator, french door refrigerator, range, washer, fan, microwave, vaccuum, space heater and air conditioner"
+        />
         <link rel="icon" href="/assets/icons/website__icon.svg" />
       </Head>
       <AppContainer theme={'light-mode'}>
