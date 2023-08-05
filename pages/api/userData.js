@@ -70,17 +70,17 @@ export const userInformation = {
   projects: {
     project1: {
       poster: '/assets/images/projects/project1.png',
-      title: 'Lorem impsum dolor ',
+      title: 'Tiny Web Marvels',
       description:
-        '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
-      techStack: 'HTML, Javascript, SASS, Next.js',
+        '"Here you can see a list of my mini web projects developed on my learning path!"',
+      techStack: 'HTML, Javascript, CSS',
       links: {
-        liveDemo: '',
-        sourceCode: '',
+        liveDemo: 'https://mrchappie.github.io/',
+        sourceCode: 'https://github.com/mrchappie/mrchappie.github.io',
       },
     },
     project2: {
-      poster: '/assets/images/projects/project1.png',
+      poster: '/assets/images/projects/project_template.png',
       title: 'Lorem impsum dolor ',
       description:
         '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
@@ -91,7 +91,7 @@ export const userInformation = {
       },
     },
     project3: {
-      poster: '/assets/images/projects/project1.png',
+      poster: '/assets/images/projects/project_template.png',
       title: 'Lorem impsum dolor ',
       description:
         '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
@@ -102,7 +102,7 @@ export const userInformation = {
       },
     },
     project4: {
-      poster: '/assets/images/projects/project1.png',
+      poster: '/assets/images/projects/project_template.png',
       title: 'Lorem impsum dolor ',
       description:
         '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
@@ -113,7 +113,7 @@ export const userInformation = {
       },
     },
     project5: {
-      poster: '/assets/images/projects/project1.png',
+      poster: '/assets/images/projects/project_template.png',
       title: 'Lorem impsum dolor ',
       description:
         '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
@@ -124,7 +124,7 @@ export const userInformation = {
       },
     },
     project6: {
-      poster: '/assets/images/projects/project1.png',
+      poster: '/assets/images/projects/project_template.png',
       title: 'Lorem impsum dolor ',
       description:
         '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
