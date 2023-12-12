@@ -11,7 +11,9 @@
   "dependencies": {
     "next": "^13.4.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-lazy-load-image-component": "^1.6.0",
+    "react-scroll-to-top": "^3.0.0"
   },
   "devDependencies": {
     "sass": "^1.62.1"

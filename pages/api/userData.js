@@ -4,9 +4,10 @@ export const userInformation = {
   lastName: 'BOȘCU',
   nickName: 'Chappie',
   age: 24,
-  email: 'tobedecided@gmail.com',
+  email: 'boscu20@gmail.com',
   phoneNumber: '+40771558180',
-  profilePicture: '/assets/images/profile_picture.png',
+  profilePicture: '/assets/images/profile_image.jpg',
+  profilePictureBlured: '/assets/images/profile_picture-min_blured.png',
   aboutMe: `Hi, my name is Alexandru, but you can call me Alex. I'm a 24-year-old web developer from Romania. It all started as a hobby; all I wanted was to create a website for myself where I could list all the movies I've watched. Starting with HTML and CSS to build the website and struggling to make a button work, I have now advanced to working with JavaScript and frameworks to develop incredible websites. Google has been my best teacher throughout this journey of learning web development.`,
   socials: {
     github: 'https://github.com/mrchappie',
@@ -18,12 +19,14 @@ export const userInformation = {
     cssIcon: '/assets/images/tech_stack/css.svg',
     javascriptIcon: '/assets/images/tech_stack/javascript.svg',
     sassIcon: '/assets/images/tech_stack/sass.svg',
+    tailwindIcon: '/assets/images/tech_stack/tailwind.svg',
+    angularIcon: '/assets/images/tech_stack/angular.svg',
+    reactIcon: '/assets/images/tech_stack/react.svg',
     githubIcon: '/assets/images/tech_stack/github.svg',
     vscodeIcon: '/assets/images/tech_stack/vscode.svg',
     gitIcon: '/assets/images/tech_stack/git.svg',
-    reactIcon: '/assets/images/tech_stack/react.svg',
     nextIcon: '/assets/images/tech_stack/nextjs.svg',
-    tailwindIcon: '/assets/images/tech_stack/tailwind.svg',
+    firebaseIcon: '/assets/images/tech_stack/firebase.svg',
   },
 
   education: {
@@ -51,12 +54,21 @@ export const userInformation = {
   },
 
   workExperience: {
+    job3: {
+      jobName: 'QA and Tester',
+      jobCompany: 'Secretcode',
+      jobLocation: 'Remote',
+      jobType: 'Training',
+      jobDuration: 'October 2022 - Present',
+      jobLinkedin: 'https://www.linkedin.com/company/secretcode/about/',
+    },
     job2: {
       jobName: 'Telecommunication Engineer',
       jobCompany: 'ASGO Telecom',
       jobLocation: 'Bucharest, ROMANIA',
       jobType: 'Full Time',
       jobDuration: 'July 2022 - Present',
+      jobLinkedin: '',
     },
     job1: {
       jobName: 'Mechanical Design Engineer | Automotive',
@@ -64,6 +76,7 @@ export const userInformation = {
       jobLocation: 'Bucharest, ROMANIA',
       jobType: 'Full Time',
       jobDuration: 'Octomber 2021 - July 2022',
+      jobLinkedin: 'https://www.linkedin.com/company/expleo-group/',
     },
   },
 
@@ -81,7 +94,7 @@ export const userInformation = {
     },
     project2: {
       poster: '/assets/images/projects/project_template.png',
-      title: 'Lorem impsum dolor ',
+      title: 'Work in progress...',
       description:
         '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
       techStack: 'HTML, Javascript, SASS, Next.js',
@@ -92,40 +105,7 @@ export const userInformation = {
     },
     project3: {
       poster: '/assets/images/projects/project_template.png',
-      title: 'Lorem impsum dolor ',
-      description:
-        '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
-      techStack: 'HTML, Javascript, SASS, Next.js',
-      links: {
-        liveDemo: '',
-        sourceCode: '',
-      },
-    },
-    project4: {
-      poster: '/assets/images/projects/project_template.png',
-      title: 'Lorem impsum dolor ',
-      description:
-        '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
-      techStack: 'HTML, Javascript, SASS, Next.js',
-      links: {
-        liveDemo: '',
-        sourceCode: '',
-      },
-    },
-    project5: {
-      poster: '/assets/images/projects/project_template.png',
-      title: 'Lorem impsum dolor ',
-      description:
-        '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
-      techStack: 'HTML, Javascript, SASS, Next.js',
-      links: {
-        liveDemo: '',
-        sourceCode: '',
-      },
-    },
-    project6: {
-      poster: '/assets/images/projects/project_template.png',
-      title: 'Lorem impsum dolor ',
+      title: 'Work in progress...',
       description:
         '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
       techStack: 'HTML, Javascript, SASS, Next.js',

@@ -1,9 +1,12 @@
 import styles from './homePage/homePage.module.scss';
-
 import { userInformation } from './api/userData';
-const username = `<${userInformation.middleName} ${userInformation.lastName}/>`;
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const homePage = () => {
+  const username = `<${userInformation.middleName} ${userInformation.lastName}/>`;
+  const profilePicture = userInformation.profilePicture;
+  const profilePictureBlured = userInformation.profilePictureBlured;
+
   return (
     <section className={styles.container}>
       <div className={styles.heading}>
@@ -13,8 +16,10 @@ const homePage = () => {
         <div>I build things for web</div>
       </div>
       <div className={styles.profile}>
-        <img
-          src={userInformation.profilePicture}
+        <LazyLoadImage
+          src={profilePicture}
+          PlaceholderSrc={profilePictureBlured}
+          effect="blur"
           alt={
             userInformation.middleName +
             ' ' +

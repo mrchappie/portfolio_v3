@@ -1,3 +1,4 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { userInformation } from '../api/userData';
 
 import styles from './techStackPage.module.scss';
@@ -16,7 +17,7 @@ const techStack = () => {
       <ul className={styles.tech__list}>
         {htmlToBeInserted.map((tech, index) => (
           <li key={index} className={styles.tech__item}>
-            <img src={tech} alt="" />
+            <LazyLoadImage src={tech} alt="" />
           </li>
         ))}
       </ul>

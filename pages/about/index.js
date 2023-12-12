@@ -23,7 +23,11 @@ const about = () => {
                 {work.jobName}
               </div>
               <div className={styles.experience__job__header__location}>
-                <div className={styles.company}>{work.jobCompany}</div>
+                <div className={styles.company}>
+                  <a href={work.jobLinkedin ?? null} target="_blanck">
+                    {work.jobCompany}
+                  </a>
+                </div>
                 <div className={styles.city}>{work.jobLocation}</div>
               </div>
             </div>
@@ -36,8 +40,8 @@ const about = () => {
       </div>
       <div className={styles.education}>
         <div className={styles.education__title}>{`<Education/>`}</div>
-        {userEducation.map((education) => (
-          <div className={styles.education__type}>
+        {userEducation.map((education, index) => (
+          <div key={index} className={styles.education__type}>
             <div className={styles.education__type__header}>
               <div className={styles.education__type__header__title}>
                 {education.educationName}

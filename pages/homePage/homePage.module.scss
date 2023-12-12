@@ -41,6 +41,7 @@
       width: calc(var(--image-width) - 20px);
       aspect-ratio: 1;
       border-radius: 50%;
+      object-fit: cover;
     }
   }
 }
