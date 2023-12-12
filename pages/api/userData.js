@@ -85,7 +85,7 @@ export const userInformation = {
       poster: '/assets/images/projects/project1.png',
       title: 'Tiny Web Marvels',
       description:
-        '"Here you can see a list of my mini web projects developed on my learning path!"',
+        '"Here you can see a list of my mini web projects developed on my learning path."',
       techStack: 'HTML, Javascript, CSS',
       links: {
         liveDemo: 'https://mrchappie.github.io/',
@@ -93,14 +93,16 @@ export const userInformation = {
       },
     },
     project2: {
-      poster: '/assets/images/projects/project_template.png',
-      title: 'Work in progress...',
+      poster: '/assets/images/projects/project2.png',
+      title: 'Shift Management',
       description:
-        '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
-      techStack: 'HTML, Javascript, SASS, Next.js',
+        '"I\'ve made this project for the end of Javascript module of Newtech Academy Frontend Developer course."',
+      techStack: 'HTML, Javascript, SCSS',
       links: {
-        liveDemo: '',
-        sourceCode: '',
+        liveDemo:
+          'https://mrchappie.github.io/exercises/16.javascrip_module_project/',
+        sourceCode:
+          'https://github.com/mrchappie/mrchappie.github.io/tree/main/exercises/16.javascrip_module_project',
       },
     },
     project3: {
