@@ -81,6 +81,17 @@ export const userInformation = {
   },
 
   projects: {
+    project0: {
+      poster: '/assets/images/projects/portfolio.png',
+      title: 'Portfolio',
+      description:
+        '"Welcome to my portfolio, here you can see what I`ve been working on, what technologies I used and where you can find me!"',
+      techStack: 'Next.js, Javascript, SCSS',
+      links: {
+        liveDemo: 'https://main--project-chappie.netlify.app/',
+        sourceCode: 'https://github.com/mrchappie/portfolio_v3',
+      },
+    },
     project1: {
       poster: '/assets/images/projects/project1.png',
       title: 'Tiny Web Marvels',
