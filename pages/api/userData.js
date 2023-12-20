@@ -109,11 +109,11 @@ export const userInformation = {
       poster: '/assets/images/projects/project_template.png',
       title: 'Work in progress...',
       description:
-        '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."',
-      techStack: 'HTML, Javascript, SASS, Next.js',
+        '"This project is in develop right now so it has a lot of bugs. I am working to improve it..."',
+      techStack: 'Angular, Typescript, Tailwind',
       links: {
-        liveDemo: '',
-        sourceCode: '',
+        liveDemo: 'https://angular-shift-management-by-chappie.netlify.app/',
+        sourceCode: 'https://github.com/mrchappie/shifts-management',
       },
     },
   },
