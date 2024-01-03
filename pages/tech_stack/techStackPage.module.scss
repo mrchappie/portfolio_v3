@@ -10,7 +10,7 @@
     text-align: center;
     font-size: clamp(1.5rem, 1.5rem + 1vw, 48px);
     font-weight: $font-weight-700;
-    color: $heading-color-light;
+    color: var(--heading-color);
 
     padding-block: $padding-16;
   }

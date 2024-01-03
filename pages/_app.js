@@ -37,7 +37,7 @@ function MyApp() {
         />
         <link rel="icon" href="/assets/icons/website__icon.svg" />
       </Head>
-      <AppContainer theme={'light-mode'}>
+      <AppContainer>
         <Navigation></Navigation>
         {path === '/' && (
           <>

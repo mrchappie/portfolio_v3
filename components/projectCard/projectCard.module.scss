@@ -5,7 +5,7 @@
   width: 375px;
   height: 570px;
 
-  background-color: $background-color-light;
+  background-color: var(--background-color-second);
   border-radius: 20px;
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
 
@@ -40,7 +40,7 @@
     .title {
       font-size: clamp($font-size-16, 1rem + 1vw, $font-size-28);
       font-weight: $font-weight-500;
-      color: $text-black;
+      color: var(--text);
       line-height: 26px;
     }
 
@@ -48,7 +48,7 @@
       flex: 1 0 auto;
       font-size: clamp($font-size-12, 12px + 1vw, $font-size-18);
       font-weight: $font-weight-400;
-      color: $text-black;
+      color: var(--text);
       line-height: 26px;
       text-align: justify;
     }
@@ -56,13 +56,13 @@
     .project__tech__stack {
       font-size: clamp($font-size-12, 12px + 1vw, $font-size-16);
       font-weight: $font-weight-600;
-      color: $heading-color-light;
+      color: var(--heading-color);
       line-height: 26px;
 
       span {
         font-size: clamp($font-size-12, 12px + 1vw, $font-size-16);
         font-weight: $font-weight-400;
-        color: $heading-color-light;
+        color: var(--heading-color);
         line-height: 26px;
       }
     }
@@ -72,9 +72,15 @@
       justify-content: space-between;
       font-size: clamp($font-size-12, 12px + 1vw, $font-size-16);
       font-weight: $font-weight-400;
-      color: $text-black;
+      color: var(--text);
       line-height: 26px;
       margin: 0;
+
+      > * {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

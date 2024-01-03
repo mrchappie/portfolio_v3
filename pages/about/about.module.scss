@@ -10,14 +10,14 @@
     &__title {
       font-size: clamp(1rem, 1.5rem + 1vw, 42px);
       font-weight: $font-weight-900;
-      color: $heading-color-light;
+      color: var(--heading-color);
       margin-block: $margin-32;
     }
     &__description {
       text-indent: 40px;
       font-size: $font-size-18;
       font-weight: $font-weight-400;
-      color: $text-dark;
+      color: var(--text);
       margin-block: $margin-32;
     }
   }
@@ -27,7 +27,7 @@
     &__title {
       font-size: clamp(1rem, 1.5rem + 1vw, 42px);
       font-weight: $font-weight-900;
-      color: $heading-color-light;
+      color: var(--heading-color);
       margin-block: $margin-32;
     }
 
@@ -43,7 +43,7 @@
         &__title {
           font-size: $font-size-20;
           font-weight: $font-weight-600;
-          color: $text-dark;
+          color: var(--text);
         }
 
         &__location {
@@ -54,7 +54,7 @@
           font-size: $font-size-14;
           line-height: 30px;
           font-weight: $font-weight-500;
-          color: $text-light;
+          color: var(--text);
         }
       }
 
@@ -66,8 +66,8 @@
         span:nth-child(1) {
           color: $button-text-accent;
           background-color: $button-background-accent;
-          font-size: $font-size-12;
-          font-weight: $font-weight-400;
+          font-size: $font-size-14;
+          font-weight: $font-weight-900;
           padding: $base-padding $padding-16;
           border-radius: 100px;
         }
@@ -75,7 +75,7 @@
         span:nth-child(2) {
           line-height: 30px;
 
-          color: $text-light;
+          color: var(--text);
           font-size: $font-size-14;
           font-weight: $font-weight-500;
         }
@@ -87,7 +87,7 @@
     &__title {
       font-size: clamp(1rem, 1.5rem + 1vw, 42px);
       font-weight: $font-weight-900;
-      color: $heading-color-light;
+      color: var(--heading-color);
       margin-block: $margin-32;
     }
 
@@ -103,7 +103,7 @@
         &__title {
           font-size: $font-size-20;
           font-weight: $font-weight-600;
-          color: $text-dark;
+          color: var(--text);
         }
 
         &__location {
@@ -114,7 +114,7 @@
           font-size: $font-size-14;
           line-height: 30px;
           font-weight: $font-weight-500;
-          color: $text-light;
+          color: var(--text);
         }
       }
 
@@ -126,8 +126,8 @@
         span:nth-child(1) {
           color: $button-text-accent;
           background-color: $button-background-accent;
-          font-size: $font-size-12;
-          font-weight: $font-weight-400;
+          font-size: $font-size-14;
+          font-weight: $font-weight-900;
           padding: $base-padding $padding-16;
           border-radius: 100px;
         }
@@ -135,7 +135,7 @@
         span:nth-child(2) {
           line-height: 30px;
 
-          color: $text-light;
+          color: var(--text);
           font-size: $font-size-14;
           font-weight: $font-weight-500;
         }

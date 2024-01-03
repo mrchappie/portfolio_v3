@@ -6,7 +6,7 @@
   -webkit-background-clip: text;
   font-size: $font-size-16;
   font-weight: $font-weight-400;
-  color: $text-dark;
+  color: var(--text);
 
   &__designed {
     -webkit-text-fill-color: transparent;
