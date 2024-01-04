@@ -11,7 +11,8 @@ export const userInformation = {
   aboutMe: `Hi, my name is Alexandru, but you can call me Alex. I'm a 24-year-old web developer from Romania. It all started as a hobby; all I wanted was to create a website for myself where I could list all the movies I've watched. Starting with HTML and CSS to build the website and struggling to make a button work, I have now advanced to working with JavaScript and frameworks to develop incredible websites. Google has been my best teacher throughout this journey of learning web development.`,
   socials: {
     github: 'https://github.com/mrchappie',
-    twitter: 'https://twitter.com/iamchappi3',
+    // twitter: 'https://twitter.com/iamchappi3',
+    codewars: 'https://www.codewars.com/users/Ch4ppi3',
     linkedin: 'https://www.linkedin.com/in/al3xboscu/',
   },
   teckStack: {
