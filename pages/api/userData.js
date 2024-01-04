@@ -88,7 +88,7 @@ export const userInformation = {
         '"Welcome to my portfolio, here you can see what I`ve been working on, what technologies I used and where you can find me!"',
       techStack: 'Next.js, Javascript, SCSS',
       links: {
-        liveDemo: 'https://main--project-chappie.netlify.app/',
+        liveDemo: 'https://alexandruboscu.ro/',
         sourceCode: 'https://github.com/mrchappie/portfolio_v3',
       },
     },
