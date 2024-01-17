@@ -3,12 +3,12 @@ export const userInformation = {
   firstName: 'Marian',
   lastName: 'BOȘCU',
   nickName: 'Chappie',
-  age: 24,
+  age: 25,
   email: 'boscu20@gmail.com',
   phoneNumber: '+40771558180',
   profilePicture: '/assets/images/profile_image.jpg',
   profilePictureBlured: '/assets/images/profile_picture-min_blured.png',
-  aboutMe: `Hi, my name is Alexandru, but you can call me Alex. I'm a 24-year-old web developer from Romania. It all started as a hobby; all I wanted was to create a website for myself where I could list all the movies I've watched. Starting with HTML and CSS to build the website and struggling to make a button work, I have now advanced to working with JavaScript and frameworks to develop incredible websites. Google has been my best teacher throughout this journey of learning web development.`,
+  aboutMe: `Hi, my name is Alexandru, but you can call me Alex. I'm a 25-year-old web developer from Romania. It all started as a hobby; all I wanted was to create a website for myself where I could list all the movies I've watched. Starting with HTML and CSS to build the website and struggling to make a button work, I have now advanced to working with JavaScript and frameworks to develop incredible websites. Google has been my best teacher throughout this journey of learning web development.`,
   socials: {
     github: 'https://github.com/mrchappie',
     // twitter: 'https://twitter.com/iamchappi3',
@@ -118,7 +118,7 @@ export const userInformation = {
       },
     },
     project3: {
-      poster: '/assets/images/projects/project_template.png',
+      poster: '/assets/images/projects/project3.png',
       title: 'Work in progress...',
       description:
         '"This project is in develop right now so it has a lot of bugs. I am working to improve it..."',
