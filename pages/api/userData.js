@@ -94,14 +94,14 @@ export const userInformation = {
       },
     },
     project1: {
-      poster: '/assets/images/projects/project1.png',
-      title: 'Tiny Web Marvels',
+      poster: '/assets/images/projects/project3.png',
+      title: 'Shift Management - Angular',
       description:
-        '"Here you can see a list of my mini web projects developed on my learning path."',
-      techStack: 'HTML, Javascript, CSS',
+        '"I\'ve made this project for the end of Angular to Database Client Side module of Newtech Academy Frontend Developer course."',
+      techStack: 'Angular, Typescript, Tailwind, Firebase',
       links: {
-        liveDemo: 'https://mrchappie.github.io/',
-        sourceCode: 'https://github.com/mrchappie/mrchappie.github.io',
+        liveDemo: 'https://angular-shift-management-by-chappie.netlify.app/',
+        sourceCode: 'https://github.com/mrchappie/shifts-management',
       },
     },
     project2: {
@@ -118,14 +118,14 @@ export const userInformation = {
       },
     },
     project3: {
-      poster: '/assets/images/projects/project3.png',
-      title: 'Shift Management - Angular',
+      poster: '/assets/images/projects/project1.png',
+      title: 'Tiny Web Marvels',
       description:
-        '"I\'ve made this project for the end of Angular to Database Client Side module of Newtech Academy Frontend Developer course."',
-      techStack: 'Angular, Typescript, Tailwind, Firebase',
+        '"Here you can see a list of my mini web projects developed on my learning path."',
+      techStack: 'HTML, Javascript, CSS',
       links: {
-        liveDemo: 'https://angular-shift-management-by-chappie.netlify.app/',
-        sourceCode: 'https://github.com/mrchappie/shifts-management',
+        liveDemo: 'https://mrchappie.github.io/',
+        sourceCode: 'https://github.com/mrchappie/mrchappie.github.io',
       },
     },
   },
