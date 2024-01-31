@@ -106,7 +106,7 @@ export const userInformation = {
     },
     project2: {
       poster: '/assets/images/projects/project2.png',
-      title: 'Shift Management',
+      title: 'Shift Management - Javascript',
       description:
         '"I\'ve made this project for the end of Javascript module of Newtech Academy Frontend Developer course."',
       techStack: 'HTML, Javascript, SCSS',
@@ -119,10 +119,10 @@ export const userInformation = {
     },
     project3: {
       poster: '/assets/images/projects/project3.png',
-      title: 'Work in progress...',
+      title: 'Shift Management - Angular',
       description:
-        '"This project is in develop right now so it has a lot of bugs. I am working to improve it..."',
-      techStack: 'Angular, Typescript, Tailwind',
+        '"I\'ve made this project for the end of Angular to Database Client Side module of Newtech Academy Frontend Developer course."',
+      techStack: 'Angular, Typescript, Tailwind, Firebase',
       links: {
         liveDemo: 'https://angular-shift-management-by-chappie.netlify.app/',
         sourceCode: 'https://github.com/mrchappie/shifts-management',
