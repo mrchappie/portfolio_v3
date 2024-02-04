@@ -32,8 +32,8 @@ export const userInformation = {
 
   education: {
     education1: {
-      educationName: 'Front End Developer | Trainee',
-      educationInstitute: 'New Tech Academy',
+      educationName: 'Frontend Developer | Trainee',
+      educationInstitute: 'NewTech Academy',
       educationLocation: 'Remote',
       educationType: 'Trainee',
       educationDuration: 'February 2023 - Present',
@@ -56,10 +56,10 @@ export const userInformation = {
 
   workExperience: {
     job3: {
-      jobName: 'QA and Tester',
-      jobCompany: 'Secretcode',
+      jobName: 'Frontend Developer',
+      jobCompany: 'SecretCode',
       jobLocation: 'Remote',
-      jobType: 'Training',
+      jobType: 'Full Time',
       jobDuration: 'October 2022 - Present',
       jobLinkedin: 'https://www.linkedin.com/company/secretcode/about/',
     },
