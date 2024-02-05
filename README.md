@@ -1,3 +1,9 @@
+# Welcome to my portfolio
+- Checkout the live demo [here](https://alexandruboscu.ro/)
+![image](https://github.com/mrchappie/portfolio_v3/assets/37247472/1fe8e403-111d-4afd-80b4-11aec603a427)
+
+
+# Info about this project
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
