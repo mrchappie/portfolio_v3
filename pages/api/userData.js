@@ -100,7 +100,7 @@ export const userInformation = {
         '"I\'ve made this project for the end of Angular to Database Client Side module of Newtech Academy Frontend Developer course."',
       techStack: 'Angular, Typescript, Tailwind, Firebase',
       links: {
-        liveDemo: 'https://angular-shift-management-by-chappie.netlify.app/',
+        liveDemo: 'https://shift-ease.netlify.app/',
         sourceCode: 'https://github.com/mrchappie/shifts-management',
       },
     },
