@@ -94,6 +94,17 @@ export const userInformation = {
       },
     },
     project1: {
+      poster: '/assets/images/projects/streaming_service_poster.png',
+      title: 'BD Screens',
+      description:
+        '"Crafting a passion project just for you! Dive into a unique streaming experience, carefully curated and coming to life soon."',
+      techStack: 'Next.js, Typescript, Tailwind',
+      links: {
+        liveDemo: '#',
+        sourceCode: 'https://github.com/mrchappie/flick-flow',
+      },
+    },
+    project2: {
       poster: '/assets/images/projects/project3.png',
       title: 'Shift Management - Angular',
       description:
@@ -104,7 +115,7 @@ export const userInformation = {
         sourceCode: 'https://github.com/mrchappie/shifts-management',
       },
     },
-    project2: {
+    project3: {
       poster: '/assets/images/projects/project2.png',
       title: 'Shift Management - Javascript',
       description:
@@ -117,7 +128,7 @@ export const userInformation = {
           'https://github.com/mrchappie/mrchappie.github.io/tree/main/exercises/16.javascrip_module_project',
       },
     },
-    project3: {
+    project4: {
       poster: '/assets/images/projects/project1.png',
       title: 'Tiny Web Marvels',
       description:
