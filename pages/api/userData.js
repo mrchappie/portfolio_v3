@@ -100,7 +100,7 @@ export const userInformation = {
         '"Crafting a passion project just for you! Dive into a unique streaming experience, carefully curated and coming to life soon."',
       techStack: 'Next.js, Typescript, Tailwind',
       links: {
-        liveDemo: '#',
+        liveDemo: 'https://websiteisloading.netlify.app/',
         sourceCode: 'https://github.com/mrchappie/flick-flow',
       },
     },
