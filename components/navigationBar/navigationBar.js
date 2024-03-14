@@ -39,7 +39,7 @@ const navigationBar = () => {
             alt="close menu button"
           />
         </div>
-        <div className={styles.logo}>
+        <div>
           <LogoComponent></LogoComponent>
         </div>
         <ul className={styles.nav} onClick={handleMenuClose}>

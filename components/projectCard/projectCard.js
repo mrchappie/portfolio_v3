@@ -1,11 +1,10 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import styles from './projectCard.module.scss';
 
 const projectCard = (props) => {
   return (
     <div className={styles.project__card}>
       <div className={styles.image}>
-        <LazyLoadImage src={props.poster} alt={props.title} />
+        <img src={props.poster} alt={props.title} />
       </div>
       <div className={styles.project__content}>
         <div className={styles.title}>{props.title}</div>

@@ -1,6 +1,6 @@
 import styles from './homePage/homePage.module.scss';
 import { userInformation } from './api/userData';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { motion } from 'framer-motion';
 
 const homePage = () => {
   const username = `<${userInformation.middleName} ${userInformation.lastName}/>`;
@@ -9,17 +9,25 @@ const homePage = () => {
 
   return (
     <section className={styles.container}>
-      <div className={styles.heading}>
+      <motion.div
+        initial={{ scale: 0 }}
+        whileInView={{ scale: 1 }}
+        transition={{ ease: 'easeInOut', duration: 0.45 }}
+        className={styles.heading}
+      >
         <div>Hi 👋, </div>
         <div>My name is</div>
         <div className={styles.username}>{username}</div>
         <div>I build things for web</div>
-      </div>
-      <div className={styles.profile}>
-        <LazyLoadImage
+      </motion.div>
+      <motion.div
+        initial={{ scale: 0 }}
+        whileInView={{ scale: 1 }}
+        transition={{ ease: 'easeInOut', duration: 0.45 }}
+        className={styles.profile}
+      >
+        <img
           src={profilePicture}
-          PlaceholderSrc={profilePictureBlured}
-          effect="blur"
           alt={
             userInformation.middleName +
             ' ' +
@@ -28,7 +36,7 @@ const homePage = () => {
             'profile picture'
           }
         />
-      </div>
+      </motion.div>
     </section>
   );
 };
