@@ -1,5 +1,5 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { userInformation } from '../api/userData';
+import { motion } from 'framer-motion';
 
 import styles from './techStackPage.module.scss';
 
@@ -16,9 +16,17 @@ const techStack = () => {
       </div>
       <ul className={styles.tech__list}>
         {htmlToBeInserted.map((tech, index) => (
-          <li key={index} className={styles.tech__item}>
-            <LazyLoadImage src={tech} alt="" />
-          </li>
+          <motion.li
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 1.1 }}
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 0.9 }}
+            transition={{ ease: 'linear', duration: 0.25, delay: 0.1 }}
+            key={index}
+            className={styles.tech__item}
+          >
+            <img src={tech} alt="" />
+          </motion.li>
         ))}
       </ul>
     </section>
