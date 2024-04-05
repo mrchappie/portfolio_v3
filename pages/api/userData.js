@@ -108,7 +108,7 @@ export const userInformation = {
       poster: '/assets/images/projects/project3.png',
       title: 'Shift Management - Angular',
       description:
-        '"I\'ve made this project for the end of Angular to Database Client Side module of Newtech Academy Frontend Developer course."',
+        '"I\'ve made this project for the end of Angular to Database Client Side module of Newtech Academy Frontend Developer course. Demo account: demo.account@shift.app / Demo123!"',
       techStack: 'Angular, Typescript, Tailwind, Firebase',
       links: {
         liveDemo: 'https://shift-ease.netlify.app/',
