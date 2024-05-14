@@ -25,16 +25,13 @@ function MyApp() {
         <meta property="og:title" content="Alexandru BOSCU Portfolio" />
         <meta
           property="og:description"
-          content="Passionate Frontend Developer | Seeking Opportunities to Join an Exceptional Team"
+          content="🌟 Passionate Junior Frontend Developer with a thirst for learning and tackling new challenges. I thrive on innovation and am always ready to explore new horizons in the tech world. 🚀 Proficient in JavaScript ⚡️, Angular ⚙️, React ⚛️, and frontend development technologies including HTML 🌐, CSS 🎨 (including Tailwind CSS 🌈 and SASS 💅), TypeScript 📘, Git 🌱, GitHub 🐙, and Firebase 🔥. Let's build exciting user experiences together! 💻"
         />
         <meta
           property="og:image"
-          content="http://www.machinelearningworkshop.com/image/all.png"
+          content="/public/assets/portfolio_website_preview.png"
         />
-        <meta
-          property="og:image:alt"
-          content="Black and white line drawing of refrigerator, french door refrigerator, range, washer, fan, microwave, vaccuum, space heater and air conditioner"
-        />
+
         <link rel="icon" href="/assets/icons/website__icon.svg" />
       </Head>
       <AppContainer>
