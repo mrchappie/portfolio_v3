@@ -29,7 +29,7 @@ function MyApp() {
         />
         <meta
           property="og:image"
-          content="/assets/portfolio_website_preview.png"
+          content="https://raw.githubusercontent.com/mrchappie/portfolio_v3/main/public/assets/portfolio_website_preview.png"
         />
 
         <link rel="icon" href="/assets/icons/website__icon.svg" />
