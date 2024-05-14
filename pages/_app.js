@@ -27,8 +27,29 @@ function MyApp() {
           property="og:description"
           content="🌟 Passionate Junior Frontend Developer with a thirst for learning and tackling new challenges. I thrive on innovation and am always ready to explore new horizons in the tech world. 🚀 Proficient in JavaScript ⚡️, Angular ⚙️, React ⚛️, and frontend development technologies including HTML 🌐, CSS 🎨 (including Tailwind CSS 🌈 and SASS 💅), TypeScript 📘, Git 🌱, GitHub 🐙, and Firebase 🔥. Let's build exciting user experiences together! 💻"
         />
+
+        <meta property="og:url" content="https://alexandruboscu.ro/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Alexandru Boscu CV" />
+        <meta
+          property="og:description"
+          content="🌟 Passionate Junior Frontend Developer with a thirst for learning and tackling new challenges. I thrive on innovation and am always ready to explore new horizons in the tech world. 🚀 Proficient in JavaScript ⚡️, Angular ⚙️, React ⚛️, and frontend development technologies including HTML 🌐, CSS 🎨 (including Tailwind CSS 🌈 and SASS 💅), TypeScript 📘, Git 🌱, GitHub 🐙, and Firebase 🔥. Let's build exciting user experiences together! 💻"
+        />
         <meta
           property="og:image"
+          content="https://raw.githubusercontent.com/mrchappie/portfolio_v3/main/public/assets/portfolio_website_preview.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="https://alexandruboscu.ro/" />
+        <meta property="twitter:url" content="https://alexandruboscu.ro/" />
+        <meta name="twitter:title" content="Alexandru Boscu CV" />
+        <meta
+          name="twitter:description"
+          content="🌟 Passionate Junior Frontend Developer with a thirst for learning and tackling new challenges. I thrive on innovation and am always ready to explore new horizons in the tech world. 🚀 Proficient in JavaScript ⚡️, Angular ⚙️, React ⚛️, and frontend development technologies including HTML 🌐, CSS 🎨 (including Tailwind CSS 🌈 and SASS 💅), TypeScript 📘, Git 🌱, GitHub 🐙, and Firebase 🔥. Let's build exciting user experiences together! 💻"
+        />
+        <meta
+          name="twitter:image"
           content="https://raw.githubusercontent.com/mrchappie/portfolio_v3/main/public/assets/portfolio_website_preview.png"
         />
 
