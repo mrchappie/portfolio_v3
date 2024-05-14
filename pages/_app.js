@@ -29,7 +29,7 @@ function MyApp() {
         />
         <meta
           property="og:image"
-          content="/public/assets/portfolio_website_preview.png"
+          content="/assets/portfolio_website_preview.png"
         />
 
         <link rel="icon" href="/assets/icons/website__icon.svg" />
