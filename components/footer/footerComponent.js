@@ -4,6 +4,7 @@ import CreditsComponent from '../creditsComponent/creditsComponent';
 
 import styles from './footerComponent.module.scss';
 import Link from 'next/link';
+import { userInformation } from '../../pages/api/userData';
 
 const footerComponent = () => {
   return (
@@ -13,9 +14,15 @@ const footerComponent = () => {
           style={{ '-webkit-text-fill-color': '#a7a7a7' }}
         ></LogoComponent>
         <div className={styles.contact__options} style={{ color: '#a7a7a7' }}>
-          <div className={styles.contact__options__phone}>+40771558180</div>
+          <div className={styles.contact__options__phone}>
+            <a href={`tel:${userInformation.phoneNumber}`}>
+              {userInformation.phoneNumber}
+            </a>
+          </div>
           <div className={styles.contact__options__email}>
-            boscu20@gmail.com
+            <a href={`mailto:${userInformation.email}`}>
+              {userInformation.email}
+            </a>
           </div>
         </div>
         <SocialLinks style={{ fill: '#a7a7a7' }}></SocialLinks>

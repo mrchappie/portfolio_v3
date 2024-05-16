@@ -8,6 +8,13 @@
   max-width: 150px;
   color: var(--text);
 
+  a {
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    &:hover {
+      scale: 1.2;
+    }
+  }
+
   .img {
     width: $width-24;
   }

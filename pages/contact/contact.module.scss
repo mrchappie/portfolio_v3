@@ -20,6 +20,13 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+
+    a {
+      all: inherit;
+      display: inline-block;
+      text-decoration: underline;
+      cursor: pointer;
+    }
   }
 
   div:nth-child(3) {
@@ -37,5 +44,12 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+
+    a {
+      all: inherit;
+      display: inline-block;
+      text-decoration: underline;
+      cursor: pointer;
+    }
   }
 }

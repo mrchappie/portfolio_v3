@@ -15,6 +15,13 @@
       font-size: $font-size-18;
       font-weight: $font-weight-400;
 
+      a {
+        all: inherit;
+        display: inline-block;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
       > :nth-child(n) {
         width: 200px;
       }

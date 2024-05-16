@@ -8,7 +8,9 @@ export const userInformation = {
   phoneNumber: '+40771558180',
   profilePicture: '/assets/images/profile_image.jpg',
   profilePictureBlured: '/assets/images/profile_picture-min_blured.png',
-  aboutMe: `Hi, my name is Alexandru, but you can call me Alex. I'm a 25-year-old web developer from Romania. It all started as a hobby; all I wanted was to create a website for myself where I could list all the movies I've watched. Starting with HTML and CSS to build the website and struggling to make a button work, I have now advanced to working with JavaScript and frameworks to develop incredible websites. Google has been my best teacher throughout this journey of learning web development.`,
+  aboutMe: `Hi, I'm Alexandru, but you can call me Alex. I'm a 25-year-old web developer from Romania. My passion for web development began as a hobby, creating a personal website to catalog my favorite movies. Starting with HTML and CSS, I progressed to mastering JavaScript and various frameworks to build dynamic and responsive websites.`,
+  certificate:
+    'Recently, I completed Wawiwa’s Frontend Developer Program, a 400-hour intensive course over 12 months, culminating in a final project reviewed by industry mentors.',
   socials: {
     github: 'https://github.com/mrchappie',
     // twitter: 'https://twitter.com/iamchappi3',
@@ -36,7 +38,7 @@ export const userInformation = {
       educationInstitute: 'NewTech Academy',
       educationLocation: 'Remote',
       educationType: 'Trainee',
-      educationDuration: 'February 2023 - Present',
+      educationDuration: 'February 2023 - February 2024',
     },
     education2: {
       educationName: 'Master degree in Mechanical Engineering',
@@ -56,20 +58,20 @@ export const userInformation = {
 
   workExperience: {
     job3: {
-      jobName: 'Frontend Developer',
-      jobCompany: 'SecretCode',
-      jobLocation: 'Remote',
-      jobType: 'Full Time',
-      jobDuration: 'October 2022 - Present',
-      jobLinkedin: 'https://www.linkedin.com/company/secretcode/about/',
-    },
-    job2: {
       jobName: 'Telecommunication Engineer',
       jobCompany: 'ASGO Telecom',
       jobLocation: 'Bucharest, ROMANIA',
       jobType: 'Full Time',
       jobDuration: 'July 2022 - Present',
       jobLinkedin: '',
+    },
+    job2: {
+      jobName: 'Frontend Developer',
+      jobCompany: 'SecretCode',
+      jobLocation: 'Remote',
+      jobType: 'Full Time',
+      jobDuration: 'October 2022 - April 2024',
+      jobLinkedin: 'https://www.linkedin.com/company/secretcode/about/',
     },
     job1: {
       jobName: 'Mechanical Design Engineer | Automotive',
@@ -78,6 +80,17 @@ export const userInformation = {
       jobType: 'Full Time',
       jobDuration: 'Octomber 2021 - July 2022',
       jobLinkedin: 'https://www.linkedin.com/company/expleo-group/',
+    },
+  },
+
+  certifications: {
+    certification1: {
+      certificationName: 'Wawiwa’s Frontend Developer Program',
+      certificationCompany: 'Wawiwa-Tech',
+      certificationLocation: 'Remote',
+      certificationType: 'Part Time',
+      certificationDuration: 'February 2023 - Wawiwa-Tech 2024',
+      certificationLinkedin: 'https://www.linkedin.com/company/wawiwa/',
     },
   },
 
