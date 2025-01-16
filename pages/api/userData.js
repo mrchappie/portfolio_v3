@@ -107,13 +107,13 @@ export const userInformation = {
       },
     },
     project1: {
-      poster: '/assets/images/projects/streaming_service_poster.png',
-      title: 'BD Screens',
+      poster: '/assets/images/projects/flickflow.png',
+      title: 'FlickFlow',
       description:
-        '"Crafting a passion project just for you! Dive into a unique streaming experience, carefully curated and coming to life soon."',
-      techStack: 'Next.js, Typescript, Tailwind',
+        '"Welcome to FlickFlow – your gateway to a world of cinema. Stream a curated collection of movies, tailored to your taste, with crystal-clear quality and an effortless browsing experience. Let FlickFlow be the perfect companion for your next movie night."',
+      techStack: 'React, Javascript, Tailwind, Firebase',
       links: {
-        liveDemo: 'https://websiteisloading.netlify.app/',
+        liveDemo: 'https://flick-flow.web.app/',
         sourceCode: 'https://github.com/mrchappie/flick-flow',
       },
     },
