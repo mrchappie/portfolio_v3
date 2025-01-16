@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 import styles from './techStackPage.module.scss';
 
-const userTeckStack = userInformation.teckStack;
+const userTeckStack = userInformation.techStack;
 
 const htmlToBeInserted = Object.values(userTeckStack);
 

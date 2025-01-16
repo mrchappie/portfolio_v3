@@ -17,7 +17,7 @@ export const userInformation = {
     codewars: 'https://www.codewars.com/users/Ch4ppi3',
     linkedin: 'https://www.linkedin.com/in/al3xboscu/',
   },
-  teckStack: {
+  techStack: {
     htmlIcon: '/assets/images/tech_stack/html.svg',
     cssIcon: '/assets/images/tech_stack/css.svg',
     javascriptIcon: '/assets/images/tech_stack/javascript.svg',
@@ -30,6 +30,8 @@ export const userInformation = {
     gitIcon: '/assets/images/tech_stack/git.svg',
     nextIcon: '/assets/images/tech_stack/nextjs.svg',
     firebaseIcon: '/assets/images/tech_stack/firebase.svg',
+    sqlIcon: '/assets/images/tech_stack/sql.svg',
+    nodejsicon: '/assets/images/tech_stack/nodejs.svg',
   },
 
   education: {
