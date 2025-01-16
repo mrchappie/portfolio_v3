@@ -72,7 +72,7 @@ export const userInformation = {
       jobCompany: 'SecretCode',
       jobLocation: 'Remote',
       jobType: 'Full Time',
-      jobDuration: 'October 2022 - April 2024',
+      jobDuration: 'October 2023 - April 2024',
       jobLinkedin: 'https://www.linkedin.com/company/secretcode/about/',
     },
     job1: {
