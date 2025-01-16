@@ -110,7 +110,7 @@ export const userInformation = {
       poster: '/assets/images/projects/flickflow.png',
       title: 'FlickFlow',
       description:
-        '"Welcome to FlickFlow – your gateway to a world of cinema. Stream a curated collection of movies, tailored to your taste, with crystal-clear quality and an effortless browsing experience. Let FlickFlow be the perfect companion for your next movie night."',
+        '"Welcome to FlickFlow – your gateway to a world of cinema. Stream a curated collection of movies, tailored to your taste, with crystal-clear quality and an effortless browsing experience."',
       techStack: 'React, Javascript, Tailwind, Firebase',
       links: {
         liveDemo: 'https://flick-flow.web.app/',
