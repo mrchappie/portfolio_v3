@@ -6,7 +6,7 @@ export const userInformation = {
   age: 25,
   email: 'boscu20@gmail.com',
   phoneNumber: '+40771558180',
-  profilePicture: '/assets/images/profile_image.jpg',
+  profilePicture: '/assets/images/new_profile_pic.jpg',
   profilePictureBlured: '/assets/images/profile_picture-min_blured.png',
   aboutMe: `Hi, I'm Alexandru, but you can call me Alex. I'm a 25-year-old web developer from Romania. My passion for web development began as a hobby, creating a personal website to catalog my favorite movies. Starting with HTML and CSS, I progressed to mastering JavaScript and various frameworks to build dynamic and responsive websites.`,
   certificate:
