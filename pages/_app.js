@@ -27,6 +27,10 @@ function MyApp() {
           name="description"
           content="🌟 Passionate Junior Frontend Developer with a thirst for learning and tackling new challenges. I thrive on innovation and am always ready to explore new horizons in the tech world. 🚀 Proficient in JavaScript ⚡️, Angular ⚙️, React ⚛️, and frontend development technologies including HTML 🌐, CSS 🎨 (including Tailwind CSS 🌈 and SASS 💅), TypeScript 📘, Git 🌱, GitHub 🐙, and Firebase 🔥. Let's build exciting user experiences together! 💻"
         />
+        <meta
+          name="google-site-verification"
+          content="0mS_wv5qzu0OgAZ9OJ8ituJqNdNiB4kf6OOyjHHtytY"
+        />
         <meta name="canonical" href="https://alexandruboscu.ro/" />
         <meta property="og:title" content="Alexandru BOSCU Portfolio" />
         <meta
