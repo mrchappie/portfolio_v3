@@ -6,7 +6,11 @@ const socialLinks = (props) => {
   return (
     <div className={styles.container}>
       {/* github */}
-      <a href={userInformation.socials.github} target="_blank">
+      <a
+        href={userInformation.socials.github}
+        target="_blank"
+        aria-label="github profile"
+      >
         <svg
           className={styles.img}
           width="30"
@@ -34,7 +38,11 @@ const socialLinks = (props) => {
         </svg>
       </a> */}
       {/* codewars */}
-      <a href={userInformation.socials.codewars} target="_blank">
+      <a
+        href={userInformation.socials.codewars}
+        target="_blank"
+        aria-label="codewars profile"
+      >
         <svg
           className={styles.img}
           width="32"
@@ -55,7 +63,11 @@ const socialLinks = (props) => {
         </svg>
       </a>
       {/* linkedin */}
-      <a href={userInformation.socials.linkedin} target="_blank">
+      <a
+        href={userInformation.socials.linkedin}
+        target="_blank"
+        aria-label="linkedin profile"
+      >
         {' '}
         <svg
           className={styles.img}
