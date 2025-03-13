@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+Disallow: /server-sitemap.xml
+
+Sitemap: https://alexandruboscu.ro/sitemap.xml

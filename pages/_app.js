@@ -21,7 +21,13 @@ function MyApp() {
   return (
     <>
       <Head>
-        <title>{'<Alexandru BOȘCU/>'}</title>
+        <title>{'<Alexandru BOȘCU Portfolio/>'}</title>
+        <meta name="title" content="Alexandru BOSCU Portfolio" />
+        <meta
+          name="description"
+          content="🌟 Passionate Junior Frontend Developer with a thirst for learning and tackling new challenges. I thrive on innovation and am always ready to explore new horizons in the tech world. 🚀 Proficient in JavaScript ⚡️, Angular ⚙️, React ⚛️, and frontend development technologies including HTML 🌐, CSS 🎨 (including Tailwind CSS 🌈 and SASS 💅), TypeScript 📘, Git 🌱, GitHub 🐙, and Firebase 🔥. Let's build exciting user experiences together! 💻"
+        />
+        <meta name="canonical" href="https://alexandruboscu.ro/" />
         <meta property="og:title" content="Alexandru BOSCU Portfolio" />
         <meta
           property="og:description"
