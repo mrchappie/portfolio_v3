@@ -34,9 +34,10 @@ a {
   :root {
     --heading-color: #42446e;
     --background-color: #ffffff;
-    --background-color-second: #e7e7e7;
-    --text: #949292;
+    --background-color-second: #ffffff;
+    --text: #222222;
     --border: #222222;
+    --divider: rgba(0, 0, 0, 0.4);
   }
 }
 
@@ -47,6 +48,6 @@ a {
     --background-color: #222222;
     --background-color-second: #2b2b2b;
     --text: #dbdbdb;
-    --border: #a7a7a7;
+    --divider: rgba(255, 255, 255, 0.4);
   }
 }

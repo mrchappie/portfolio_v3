@@ -13,6 +13,10 @@
     &:hover {
       scale: 1.2;
     }
+
+    svg {
+      fill: var(--text);
+    }
   }
 
   .img {

@@ -41,7 +41,8 @@
 
     &__job {
       @extend %flex-row;
-      border-bottom: 2px solid rgba($color: #000000, $alpha: 0.1);
+      border-bottom: 1px solid;
+      border-bottom-color: var(--divider);
       padding-block: $padding-24;
       margin-block: $margin-24;
 
@@ -103,7 +104,8 @@
 
     &__job {
       @extend %flex-row;
-      border-bottom: 2px solid rgba($color: #000000, $alpha: 0.1);
+      border-bottom: 1px solid;
+      border-bottom-color: var(--divider);
       padding-block: $padding-24;
       margin-block: $margin-24;
 
@@ -163,7 +165,8 @@
 
     &__type {
       @extend %flex-row;
-      border-bottom: 2px solid rgba($color: #000000, $alpha: 0.1);
+      border-bottom: 1px solid;
+      border-bottom-color: var(--divider);
       padding-block: $padding-24;
       margin-block: $margin-24;
 

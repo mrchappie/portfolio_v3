@@ -29,6 +29,9 @@
     @extend %flex-column;
     justify-content: initial;
     align-items: initial;
+    border-top-width: 1px;
+    border-top-color: var(--border);
+    border-top-style: solid;
 
     padding: 30px;
     position: relative;

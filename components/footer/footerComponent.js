@@ -10,10 +10,8 @@ const footerComponent = () => {
   return (
     <footer className={styles.footer}>
       <section className={styles.footer__contact}>
-        <LogoComponent
-          style={{ '-webkit-text-fill-color': '#dbdbdb' }}
-        ></LogoComponent>
-        <div className={styles.contact__options} style={{ color: '#dbdbdb' }}>
+        <LogoComponent></LogoComponent>
+        <div className={styles.contact__options}>
           <div className={styles.contact__options__phone}>
             <a href={`tel:${userInformation.phoneNumber}`}>
               {userInformation.phoneNumber}
@@ -25,7 +23,7 @@ const footerComponent = () => {
             </a>
           </div>
         </div>
-        <SocialLinks style={{ fill: '#dbdbdb' }}></SocialLinks>
+        <SocialLinks></SocialLinks>
       </section>
       <div className={styles.divider}></div>
       <section className={styles.footer__navigation}>
