@@ -3,7 +3,7 @@
 .project__card {
   @extend %flex-column;
   width: 375px;
-  height: 650px;
+  min-height: 650px;
 
   background-color: var(--background-color-second);
   border-radius: 20px;
@@ -14,7 +14,7 @@
   .image {
     width: 100%;
     flex: 1 0 auto;
-    max-height: 40%;
+    height: 40%;
 
     img {
       width: 100%;
@@ -25,7 +25,7 @@
 
   .project__content {
     flex: 1 0 auto;
-    max-height: 60%;
+    height: 60%;
     @extend %flex-column;
     justify-content: initial;
     align-items: initial;
@@ -53,7 +53,7 @@
       font-weight: $font-weight-400;
       color: var(--text);
       line-height: 26px;
-      text-align: justify;
+      // text-align: justify;
     }
 
     .project__tech__stack {
@@ -91,8 +91,8 @@
 @media (max-width: 768px) {
   .project__card {
     width: 275px;
-    min-height: 470px;
-    max-height: 500px;
+    // min-height: 470px;
+    // max-height: 500px;
 
     .project__content {
       padding: 20px;

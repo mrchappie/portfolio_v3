@@ -4,14 +4,14 @@ import styles from './navigationBar.module.scss';
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 
 const navigationBar = () => {
   const [body, setBody] = useState(null);
+  const [isMenuOpen, setMenuOpen] = useState(false);
   useEffect(() => {
     setBody(document.querySelector('body'));
   }, []);
-
-  const [isMenuOpen, setMenuOpen] = useState(false);
 
   const handleMenuOpen = () => {
     setMenuOpen(!isMenuOpen);
@@ -25,6 +25,16 @@ const navigationBar = () => {
 
   return (
     <header className={styles.header}>
+      {isMenuOpen && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ ease: 'linear', duration: 0.25, delay: 0.1 }}
+          className={styles.overlay}
+          onClick={handleMenuClose}
+        ></motion.div>
+      )}
       <div className={styles.menu} onClick={handleMenuOpen}>
         <img src="/assets/icons/menu__icon.svg" alt="menu button" />
       </div>
