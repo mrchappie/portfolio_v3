@@ -9,33 +9,34 @@ import { motion } from 'framer-motion';
 const navigationBar = () => {
   const [body, setBody] = useState(null);
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [showOverlay, setShowOverlay] = useState(false);
   useEffect(() => {
     setBody(document.querySelector('body'));
   }, []);
 
-  const handleMenuOpen = () => {
+  const handleToggleMenu = (e) => {
     setMenuOpen(!isMenuOpen);
-    body.style.overflow = 'hidden';
+    body.style.overflow = !isMenuOpen ? 'hidden' : 'auto';
   };
 
-  const handleMenuClose = () => {
-    setMenuOpen(!isMenuOpen);
-    body.style.overflow = 'auto';
+  const handleShowOverlay = () => {
+    setShowOverlay(!showOverlay);
+    handleToggleMenu();
   };
 
   return (
     <header className={styles.header}>
-      {isMenuOpen && (
+      {showOverlay && (
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ ease: 'linear', duration: 0.25, delay: 0.1 }}
           className={styles.overlay}
-          onClick={handleMenuClose}
+          onClick={handleToggleMenu}
         ></motion.div>
       )}
-      <div className={styles.menu} onClick={handleMenuOpen}>
+      <div className={styles.menu} onClick={handleShowOverlay}>
         <img src="/assets/icons/menu__icon.svg" alt="menu button" />
       </div>
       <nav
@@ -43,7 +44,7 @@ const navigationBar = () => {
         style={{ right: isMenuOpen ? '0' : '-400px' }}
         id="navigation__bar"
       >
-        <div className={styles.close} onClick={handleMenuClose}>
+        <div className={styles.close} onClick={handleShowOverlay}>
           <img
             src="/assets/icons/close-menu__icon.svg"
             alt="close menu button"
@@ -52,7 +53,13 @@ const navigationBar = () => {
         <div>
           <LogoComponent></LogoComponent>
         </div>
-        <ul className={styles.nav} onClick={handleMenuClose}>
+        <ul
+          className={styles.nav}
+          onClick={() => {
+            setShowOverlay(false);
+            setMenuOpen(false);
+          }}
+        >
           <li>
             <Link href="/">Home</Link>
           </li>
