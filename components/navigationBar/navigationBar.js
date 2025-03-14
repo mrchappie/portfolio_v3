@@ -33,7 +33,7 @@ const navigationBar = () => {
           exit={{ opacity: 0 }}
           transition={{ ease: 'linear', duration: 0.25, delay: 0.1 }}
           className={styles.overlay}
-          onClick={handleToggleMenu}
+          onClick={handleShowOverlay}
         ></motion.div>
       )}
       <div className={styles.menu} onClick={handleShowOverlay}>
