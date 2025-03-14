@@ -58,6 +58,7 @@ const navigationBar = () => {
           onClick={() => {
             setShowOverlay(false);
             setMenuOpen(false);
+            body.style.overflow = 'auto';
           }}
         >
           <li>
