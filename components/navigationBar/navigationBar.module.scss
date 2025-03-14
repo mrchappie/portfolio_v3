@@ -6,6 +6,7 @@
     position: fixed;
     right: 10px;
     top: 10px;
+    z-index: 100;
 
     @extend %flex-row;
 
@@ -20,6 +21,7 @@
     padding-block: $padding-8;
 
     .close {
+      z-index: 100;
       img {
         width: 54px;
         position: absolute;

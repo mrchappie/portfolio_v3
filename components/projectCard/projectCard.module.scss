@@ -13,8 +13,9 @@
 
   .image {
     width: 100%;
-    flex: 1 0 auto;
-    height: 40%;
+    // flex: 1 0 auto;
+    height: 250px;
+    overflow: hidden;
 
     img {
       width: 100%;
@@ -33,7 +34,7 @@
     border-top-color: var(--border);
     border-top-style: solid;
 
-    padding: 30px;
+    padding: 20px;
     position: relative;
 
     > div {
@@ -41,7 +42,7 @@
     }
 
     .title {
-      font-size: clamp($font-size-16, 1rem + 1vw, $font-size-28);
+      font-size: clamp($font-size-16, 1rem + 1vw, $font-size-24);
       font-weight: $font-weight-500;
       color: var(--text);
       line-height: 26px;
@@ -79,7 +80,7 @@
       line-height: 26px;
       margin: 0;
 
-      > * {
+      a {
         &:hover {
           text-decoration: underline;
         }
@@ -88,7 +89,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .project__card {
     width: 275px;
     // min-height: 470px;

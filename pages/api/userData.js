@@ -109,6 +109,17 @@ export const userInformation = {
       },
     },
     project1: {
+      poster: '/assets/images/projects/infinityweb_poster.png',
+      title: 'Infinity Web',
+      description:
+        '"This project is a landing page for a web development company. It features a clean and modern design, with a focus on user experience and functionality."',
+      techStack: 'React, Typescript, Tailwind, Supabase',
+      links: {
+        liveDemo: 'https://infinityweb.ro/',
+        sourceCode: '',
+      },
+    },
+    project2: {
       poster: '/assets/images/projects/flickflow.png',
       title: 'FlickFlow',
       description:
@@ -119,7 +130,7 @@ export const userInformation = {
         sourceCode: 'https://github.com/mrchappie/flick-flow',
       },
     },
-    project2: {
+    project3: {
       poster: '/assets/images/projects/project3.png',
       title: 'Shift Management - Angular',
       description:
@@ -130,7 +141,7 @@ export const userInformation = {
         sourceCode: 'https://github.com/mrchappie/shifts-management',
       },
     },
-    project3: {
+    project4: {
       poster: '/assets/images/projects/project2.png',
       title: 'Shift Management - Javascript',
       description:
@@ -143,7 +154,7 @@ export const userInformation = {
           'https://github.com/mrchappie/mrchappie.github.io/tree/main/exercises/16.javascrip_module_project',
       },
     },
-    project4: {
+    project5: {
       poster: '/assets/images/projects/project1.png',
       title: 'Tiny Web Marvels',
       description:

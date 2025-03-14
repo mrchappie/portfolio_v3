@@ -24,10 +24,28 @@
   }
 
   .projects__container {
-    @extend %flex-row;
-    flex-wrap: wrap;
-    gap: 30px;
-
+    // @extend %flex-row;
+    // flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    width: 100%;
+    row-gap: 25px;
     margin-top: 80px;
+
+    align-items: center;
+    justify-content: center;
+    & > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .projects {
+    .projects__container {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
   }
 }

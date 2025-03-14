@@ -15,10 +15,18 @@ const projectCard = (props) => {
         </div>
         <div className={styles.project__links}>
           <div className={styles.project__preview}>
-            <a href={props.liveDemo}>Live Preview</a>
+            <a href={props.liveDemo} target="_blank">
+              Live Preview
+            </a>
           </div>
           <div className={styles.project__source__code}>
-            <a href={props.sourceCode}>View Code</a>
+            {props.sourceCode ? (
+              <a href={props.sourceCode} target="_blank">
+                Source Code
+              </a>
+            ) : (
+              <span>Code Unavailable</span>
+            )}
           </div>
         </div>
       </div>

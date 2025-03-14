@@ -30,7 +30,7 @@ const about = () => {
                 <div className={styles.company}>
                   <a
                     href={certificate.certificationLinkedin ?? null}
-                    target="_blanck"
+                    target="_blank"
                   >
                     {certificate.certificationCompany}
                   </a>
@@ -57,7 +57,7 @@ const about = () => {
               </div>
               <div className={styles.experience__job__header__location}>
                 <div className={styles.company}>
-                  <a href={work.jobLinkedin ?? null} target="_blanck">
+                  <a href={work.jobLinkedin ?? null} target="_blank">
                     {work.jobCompany}
                   </a>
                 </div>
